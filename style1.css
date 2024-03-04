@@ -258,3 +258,28 @@
     padding: 50px 100px;
     background-color: rgb(0, 0,0,0.01);
   }
+  footer{
+    background-color: var(--secondary);
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: center;
+    padding: 2rem;
+  }
+  footer div{
+    flex-basis: 30%;
+  }
+  footer h1{
+    letter-spacing: 0.5rem;
+  }
+  footer h1 span {
+    color: var(--primary);
+  }
+  footer p{
+    font-size: 1rem;
+  }
+  footer i{
+    margin: 0px 5px;
+  }
